@@ -1,0 +1,513 @@
+.bandeira{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+}
+.bandeira-quadrada{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    display: block;
+    margin: 10px;
+}
+.SideFlag{
+    width: 175px;
+    height: 125px;
+    display: block;
+}
+.SideFlagLin{
+    width: 175px;
+    height: 160px;
+    display: block;
+    position: relative;
+    bottom: 300px;
+}
+.col3{
+    width: 33.3%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.lin3{
+    width: 100%;
+    height: 33.3%;
+    display: block;
+}
+.lin5{
+    width: 100%;
+    height: 20%;
+    display: block;
+}
+.lin13{
+    width: 100%;
+    height: 7.69%;  
+    display: block;
+}
+.lin4{
+    width: 400px;
+    height: 75px;
+    display: block;
+}
+.Circle{
+    width: 130px;
+    height: 130px;
+    display: block;
+    border-radius: 100%;
+}
+.Moon{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: 10px solid white;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100% ;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.FullTriang{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 400px solid white;
+}
+.RedStar{
+    --star-color:red;
+    margin:1em auto;
+    font-size:2em;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);
+    right: 230px;
+    bottom: 190px;
+   }
+   .RedStar:before {
+    border-bottom: 0.8em solid var(--star-color);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -0.45em;
+    left: -0.65em;
+    display: block;
+    content:"";
+    transform: rotate(-35deg);
+   }
+   .RedStar:after {
+    position: absolute;
+    display: block;
+    top: 0.03em;
+    left: -1.05em;
+    width: 0;
+    height: 0;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(-70deg);
+    content:"";
+   }
+   .WhiteStar{
+    --star-color:white;
+    margin:1em auto;
+    font-size:2em;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);
+    right: 133.3px;
+    bottom: 45px;
+   }
+   .WhiteStar:before {
+    border-bottom: 0.8em solid var(--star-color);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -0.45em;
+    left: -0.65em;
+    display: block;
+    content:"";
+    transform: rotate(-35deg);
+   }
+   .WhiteStar:after {
+    position: absolute;
+    display: block;
+    top: 0.03em;
+    left: -1.05em;
+    width: 0;
+    height: 0;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(-70deg);
+    content:"";
+   }
+   .YellowStar{
+    --star-color:yellow;
+    margin:1em auto;
+    font-size:2em;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);
+    left: 10px;
+    bottom: 150px;
+   }
+   .YellowStar:before {
+    border-bottom: 0.8em solid var(--star-color);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -0.45em;
+    left: -0.65em;
+    display: block;
+    content:"";
+    transform: rotate(-35deg);
+   }
+   .YellowStar:after {
+    position: absolute;
+    display: block;
+    top: 0.03em;
+    left: -1.05em;
+    width: 0;
+    height: 0;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(-70deg);
+    content:"";
+   }
+ 
+.SideTriangleBlack {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 175px solid black;
+    position: relative;
+    top: -300px;
+  }
+  .SideTriangleRed {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 175px solid Red;
+    position: relative;
+    top: -300px;
+  }
+ 
+.line{
+    width: 100%;
+    height: 1%;
+    display: block;
+}
+.Center{
+    margin-top: 20%;
+    margin-left: 33.3%;
+}
+.RCA_YelStar {
+    --star-color:yellow;
+    margin:1em auto;
+    font-size: 2em;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);
+    right: 150px;
+    top: 30px;
+   }
+   .RCA_YelStar:before {
+    border-bottom: 0.8em solid var(--star-color);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -0.45em;
+    left: -0.65em;
+    display: block;
+    content:"";
+    transform: rotate(-35deg);
+   }
+   .RCA_YelStar:after {
+    position: absolute;
+    display: block;
+    top: 0.03em;
+    left: -1.05em;
+    width: 0;
+    height: 0;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(-70deg);
+    content:"";
+}
+.colorLightBlue{
+    background-color:lightblue ;
+}
+.colorBlack{
+    background-color: black;
+}
+.colorRed{
+    background-color: red;
+}
+.colorDarkGreen{
+    background-color: darkgreen;
+}
+.colorYellow{
+    background-color: yellow;
+}
+.colorDarkBlue{
+    background-color: darkblue;
+}
+.colorGreen{
+    background-color: green;
+}
+.colorWhite{
+    background-color: white;
+}
+.BrazTriangLeft{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-right: 175px solid yellow ;
+    position: relative;
+    top: 40px;
+    left: 27.5px;
+}
+.BrazTriangRight{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-left: 175px solid yellow ;
+    position: relative;
+    top: -180px;
+    left: 202.5px;
+}
+.BrazLine{
+    width: 120px;
+    height: 100px;
+    border-top: 10px solid white;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    position: relative;
+    top: 40px;
+    right: 5px;
+    transform: rotate(20deg);
+}
+.BrazCircle{
+        width: 130px;
+        height: 130px;
+        display: block;
+        border-radius: 100%;
+        position: relative;
+        right: 237.5px;
+        bottom: 60px;
+}
+.GuianTriangYel{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 140px solid transparent;
+    border-bottom: 140px solid transparent;
+    border-left: 380px solid yellow;
+    position: relative;
+    right: 400px;
+    bottom: 140px;
+}
+.GuianTriangBlack{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 145px solid transparent;
+    border-bottom: 145px solid transparent;
+    border-left: 200px solid black;
+    position: relative;
+    right: 380px;
+    bottom: 145px;
+}
+.GuianTriangRed{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 135px solid transparent;
+    border-bottom: 135px solid transparent;
+    border-left: 180px solid red;
+    position: relative;
+    right: 200px;
+    bottom: 135px;
+}
+.RCA_RedLine{
+    width: 75px;
+    height: 300px;
+    display: block;
+    background-color: red;
+    position: relative;
+    left: 165px;
+    bottom: 300px;
+}
+#Suica{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: block;
+}
+.LinSuicVert{
+    height: 250px;
+    width: 75px;
+    position: relative;
+    top: 75px;
+    left: 162.5px;
+}
+.LinSuicHor{
+    width: 250px;
+    height: 75px;
+    position: relative;
+    top: -95px;
+    left: 75px ;
+}
+.LinTonVert{
+    width: 30px;
+    height: 65px;
+    position: relative;
+    top: 30px;
+    left: 72.5px;
+}
+.LinTonHor{
+    width:65px ;
+    height: 30px;
+    position: relative;
+    top: -17.5px;
+    left: 55px;
+}
+#LinNor{
+    width: 400px;
+    height: 100px;
+    display: block;
+    background-color: white;
+    position: relative;
+    top: 100px;
+}
+#ColNor{
+    width: 100px;
+    height: 300px;
+    display: block;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+#LinNor2{
+    width: 400px;
+    height:50px;
+    display: block;
+    background-color: darkblue;
+    position: relative;
+    top: 25px;
+z-index: 1;
+}
+#ColNor2{
+    width: 50px;
+    height: 300px;
+    display: block;
+    background-color: darkblue;
+    position: relative;
+    left: 25px;
+    z-index: 1;
+}
+.RepDom{
+    width: 175px;
+    height: 125px;
+    display: block;
+    float: left;
+    position: relative;
+}
+#RepDom2{
+left: 50px;
+}
+#RepDom3{
+    top:50px
+}
+#RepDom4{
+    left: 50px;
+    top: 50px;
+}
+.GuianFran{
+    width: 0px;
+    height: 0px;
+    display: block;
+    border-top: 300px solid transparent;
+    border-bottom: 0px solid yellow;
+    border-left: 400px solid yellow;
+    position: relative;
+    top: 0px;
+}
+.MaldRectang{
+    width: 250px;
+    height: 150px;
+    display: block;
+    background-color: green;
+    position: relative;
+    left: 75px;
+    top: 75px;
+}
+.MaldMoon{
+    width: 70px;
+    height: 70px;
+    display: block;
+    border: 15px solid white;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100% ;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+.MaurMoon{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border: 30px solid yellow;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100% ;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    transform: rotate(-90deg);
+    position: relative;
+    left: 90px;
+}
+
